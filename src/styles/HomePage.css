@@ -1,0 +1,122 @@
+.page {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.page__container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.page__header,
+.page__footer {
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  background: #333;
+  padding: 10px 0;
+  left: 0px;
+  right: 0px;
+  color: #fff;
+}
+.page__header {
+  top: 0;
+}
+.page__footer {
+  bottom: 0;
+}
+.page__header-button {
+  display: flex;
+  justify-content: center;
+}
+
+.item label {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  height: 20px;
+  margin-bottom: 15px;
+}
+
+.item label input {
+  position: absolute;
+  z-index: 999;
+  left: 0;
+  width: auto;
+  margin: 0;
+}
+
+.item span {
+  margin: 0 110px 0 30px;
+}
+
+.item__actions {
+  display: flex;
+}
+.item__actions button {
+  margin: 0;
+  margin-right: 5px;
+  margin-left: 50px;
+}
+.item__actions button:last-child {
+  margin: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: -15px;
+}
+
+.form input,
+button {
+  display: block;
+  height: 30px;
+}
+
+input {
+  width: calc(100% - 8px);
+}
+
+span {
+  display: block;
+  margin-bottom: 15px;
+}
+
+span:nth-child(1) {
+  margin-top: 15px;
+}
+
+button {
+  margin-top: 15px;
+}
+
+.list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.container {
+  width: 450px;
+  margin: 60px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #333;
+  padding: 15px;
+  color: white;
+  position: relative;
+}
+
+.todos {
+  width: 100%;
+}
+
+.container__new-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  margin: 0;
+}
